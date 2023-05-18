@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>De algemene programeervragen quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="quiz-container" id="quiz">
+      <section class="quiz-header">
+        <!-- Voortgangsbalk -->
+        <article class="progress-bar" id="progress">
+          <!-- Voortgangstekst -->
+          <div id="progress-text">Vraag 1 van 4</div>
+        </article>
+        <!-- Vraag en antwoordopties -->
+        <h2 id="question">Vraag wordt geladen...</h2>
+        <div id="timer">0:00</div>
+        <article>
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="a" class="answer" />
+              <label for="a" id="a_text">Antwoord...</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="b" class="answer" />
+              <label for="b" id="b_text">Antwoord...</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="c" class="answer" />
+              <label for="c" id="c_text">Antwoord...</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="d" class="answer" />
+              <label for="d" id="d_text">Antwoord...</label>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section>
+        <!-- Verzend- en resetknoppen -->
+        <button id="submit">Verzenden</button>
+        <button id="fullReset">Volledige reset</button>
+      </section>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
